@@ -7,45 +7,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Be Vietnam">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Be Vietnam">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charmonman">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <div id="main">
         <div id="header">
             <img id="logo-hpfood" src="image/logo-hpfood.png" alt="">
-            <ul id="nav">
-                <li id="home"><a href="">TRANG CHỦ</a></li>
-                <li id="mon-ngon"><a href="">MÓN ĂN</a></li>
-                <li id="dich-vu"><a href="">DỊCH VỤ TIỆC</a></li>
-                <li id="tin-tuc"><a href="">TIN TỨC</a></li>
-                <li id="lien-he"><a href="">LIÊN HỆ</a></li>
-            </ul>
+            <ol id="nav">
+                <li id="home"><a href="#" style="color: black;">TRANG CHỦ</a></li>
+                <li id="mon-ngon"><a href="#" style="color: black;">MÓN ĂN</a></li>
+                <li id="dich-vu"><a href="#" style="color: black;">DỊCH VỤ TIỆC</a></li>
+                <li id="tin-tuc"><a href="#" style="color: black;">TIN TỨC</a></li>
+                <li id="lien-he"><a href="#" style="color: black;">LIÊN HỆ</a></li>
+            </ol>
 
             <div class="search-bar">
                 <form action="/action_page.php">
-                  <input id="text4" type="text" placeholder="Tìm kiếm.." name="search">
+                  <input id="search-text" type="text" placeholder="Tìm kiếm.." name="search">
                 </form>
-              </div>
+            </div>
 
-
-
+            <div>
+                <img src="image/shopping-cart.png" class="cart-icon" alt="">
+            </div>
         </div>
 
         <div id="silde-bar">
             <img class="huong-pho" src="image/huong-pho0537-1.jpg" alt="">
             <img class="huong-pho2" src="image/huong-pho0537-1 2.png" alt="">
             <h1 class="text1">HUONG PHO GROUP</h1>
-            <h2 class="text2"><i>Kết nối yêu thương đến mọi nhà</i></h3>
+            <h2 class="text2">Kết nối yêu thương đến mọi nhà</h3>
         </div>
 
         <div id="content">
+            <div class="mon-moi">
+                <br>
+                <ul>
+                    <img class="new-1" src="image/new.PNG" alt="">
+                    <li>
+                        <h1 class="text3">MÓN MỚI</h1>
+                    </li>
+                    <li><a id="xem-chi-tiet" href="#">Xem chi tiết</a></li>
+                    <hr>
+                </ul>
+                <div>
+                    <div class="bo-luc-lac">
 
-
+                    <a href="#">
+                        <figure><img class="bo-luc-lac bo-image" src="image/bo-luc-lac.png" alt="" srcset=""></figure>
+                    </a>
+                    <div id="frame" class="bo-luc-lac">
+                        <span><a href="#"
+                            id="text4" >Bò lúc lắc sốt tomyum và thêm rau củ</a></span>
+                    
+                    <div id="price">
+                        <div>
+                            <img id="price-s" src="image/price-s.PNG" >
+                                <span id="text5">100.000 đ</span>
+                        </div>
+                        <div>
+                            <img id="price-l" src="image/price-l.PNG" >
+                                <span id="text5">500.000 đ</span>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+                </div>
+            </div>
+            
+            
         </div>
 
         <div id="footer">
