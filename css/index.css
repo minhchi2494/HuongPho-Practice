@@ -70,6 +70,63 @@ flex-grow: 0;
 margin: 0px 40px;
 }
 
+
+#myInput{
+/* Tìm kiếm */
+position: absolute;
+left: 82.03%;
+right: 14.32%;
+top: 36.36%;
+bottom: 36.36%;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #AAAAAA;
+}
+
+.search-bar{
+/* Rectangle 22 */
+position: absolute;
+left: 79.74%;
+right: 7.76%;
+top: 27.27%;
+bottom: 27.27%;
+
+/* White */
+
+background: #FFFFFF;
+border: 1px solid #DEDEDE;
+box-sizing: border-box;
+border-radius: 40px;
+}
+
+#cart{
+    
+}
+
+#text4{
+position: absolute;
+border: none;
+left: 10%;
+top: 10%;
+bottom: 10%;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: #AAAAAA;
+}
+
 #mon-ngon{
     /* Món ngon */
 position: static;
@@ -222,7 +279,7 @@ height: 144px;
 left: 571px;
 top: 292px;
 
-font-family: Arial, Helvetica, sans-serif;
+font-family: Charmonman;
 font-style: normal;
 font-weight: bold;
 font-size: 45px;
@@ -251,6 +308,8 @@ opacity: 0.4;
 #content{
 
 }
+
+
 #footer{
 
 }
