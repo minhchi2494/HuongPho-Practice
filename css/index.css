@@ -1,0 +1,256 @@
+#main{
+position: relative;
+width: 1920px;
+height: 4049px;
+
+background: #FFFFFF;
+}
+
+#header{
+    position: absolute;
+width: 1920px;
+height: 88px;
+left: 0px;
+top: 0px;
+}
+
+#nav li a:hover{
+    color: #CDA922;
+}
+
+#logo-hpfood{
+    position: absolute;
+width: 130px;
+height: 52px;
+left: 80px;
+top: 20px;
+}
+
+#nav{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 662px;
+height: 27px;
+left: 274px;
+top: calc(50% - 27px/2);
+}
+
+#nav li{
+    display: inline;
+}
+
+#home{
+/* Trang chủ */
+position: static;
+width: 100px;
+height: 27px;
+left: 0px;
+top: 0px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 150%;
+
+/* identical to box height, or 27px */
+text-transform: uppercase;
+
+/* Main-Gold */
+color: #CDA922;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 40px;
+}
+
+#mon-ngon{
+    /* Món ngon */
+position: static;
+width: 97px;
+height: 27px;
+left: 0px;
+top: 0px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+
+/* identical to box height, or 27px */
+text-transform: uppercase;
+
+/* Title */
+color: #111111;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 4px;
+}
+
+#dich-vu{
+/* Dịch vụ tiệc */
+position: static;
+width: 113px;
+height: 27px;
+left: 0px;
+top: 0px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 150%;
+
+/* identical to box height, or 27px */
+text-transform: uppercase;
+
+/* Title */
+color: #111111;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 40px;
+}
+
+#tin-tuc{
+/* Tin tức */
+position: static;
+width: 68px;
+height: 27px;
+left: 0px;
+top: 0px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 150%;
+
+/* identical to box height, or 27px */
+text-transform: uppercase;
+
+/* Title */
+color: #111111;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 4px;
+}
+
+#lien-he{
+/* Liên hệ */
+position: static;
+width: 64px;
+height: 27px;
+left: 598px;
+top: 0px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+
+/* identical to box height, or 27px */
+text-transform: uppercase;
+
+/* Title */
+color: #111111;
+
+/* Inside Auto Layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+margin: 0px 40px;
+}
+
+#slider{
+    
+}
+.huong-pho{
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 88px;
+    
+    background: rgba(0, 0, 0, 0.7);
+    mix-blend-mode: multiply;
+}
+.text1{
+    /* HUONG PHO GROUP */
+position: absolute;
+width: 596px;
+height: 96px;
+left: 662px;
+top: 248px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: 800;
+font-size: 58px;
+line-height: 150%;
+/* identical to box height, or 96px */
+text-align: center;
+
+color: #DEB722;
+
+border: 0px solid #EDD173;
+text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25), 0px 0px 12px #7C6100;
+
+}
+.text2{
+    /* Kết nối yêu thương đến mọi nhà */
+position: absolute;
+width: 752px;
+height: 144px;
+left: 571px;
+top: 292px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 110px;
+
+/* identical to box height, or 144px */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFF9BE;
+
+text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.huong-pho2{
+    /* huong-pho0537-1 2 */
+position: absolute;
+width: 1920px;
+height: 700px;
+left: 0px;
+top: 88px;
+
+background: rgba(0, 0, 0, 0.7);
+mix-blend-mode: multiply;
+opacity: 0.4;
+}
+#content{
+
+}
+#footer{
+
+}
