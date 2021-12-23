@@ -1002,6 +1002,539 @@
     right: 12px;
     top: 250px;
     }
+
+.banner1-img{
+position: absolute;
+width: 588px;
+height: 223px;
+left: 360px;
+top: 1518px;
+
+border-radius: 8px;
+}
+
+.banner2-img{
+    position: absolute;
+    width: 588px;
+    height: 223px;
+    left: 972px;
+    top: 1518px;
     
     
+    border-radius: 8px;
+}
+
+#frame-mon-khai-vi{
+position: absolute;
+width: 1200px;
+height: 428px;
+left: 360px;
+top: 1773px;
+
+background: #FFFFFF;
+/* Border */
+
+border: 1px solid #DEDEDE;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+#title-mon-khai-vi{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 214px;
+height: 42px;
+left: 30px;
+top: 0px;
+}
+
+.dinner-icon{
+    position: static;
+left: 0%;
+right: 83.18%;
+top: 7.14%;
+bottom: 7.14%;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 12px;
+}
+
+.text10{
+    position: static;
+width: 170px;
+height: 42px;
+left: 48px;
+top: 0px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 150%;
+/* identical to box height, or 42px */
+
+text-transform: uppercase;
+
+/* Title */
+
+color: #111111;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 12px;
+}
+
+.xem-chi-tiet-2{
+    position: static;
+width: 92px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+text-align: right;
+
+/* Main-Gold */
+
+color: #CDA922;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-left: 1000px;
+}
+
+#frame-khai-vi1{
+position: static;
+width: 218px;
+height: 298px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+#context-khai-vi{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 108px;
+left: 19px;
+right: 12px;
+top: 230px;
+}
+
+.text11{
+position: static;
+width: 194px;
+left: calc(50% - 194px/2);
+top: 0%;
+bottom: 76.85%;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+
+/* Title */
+
+color: #111111;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+#frame-heo-quay{
+position: static;
+width: 218px;
+height: 298px;
+left: 234px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+.heo-quay{
+    position: absolute;
+height: 145px;
+left: 21%;
+right: 0%;
+top: 65px;
+
+
+border-radius: 8px 8px 0px 0px;
+}
+
+#context-heo-quay{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 81px;
+left: 254px;
+right: 12px;
+top: 230px;
+}
+
+#frame-khai-vi2{
+position: static;
+width: 218px;
+height: 298px;
+left: 468px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+.khai-vi2{
+position: absolute;
+height: 145px;
+left: 40.8%;
+right: 0%;
+top: 65px;
+
+border-radius: 8px 8px 0px 0px;
+}
+
+#context-khai-vi2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 220px;
+height: 108px;
+left: 495px;
+right: 12px;
+top: 230px;
+}
+
+
+#frame-khai-vi3{
+position: static;
+width: 217px;
+height: 298px;
+left: 702px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+#context-khai-vi3{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 106px;
+width: 220px;
+left: 735px;
+right: 12px;
+top: 230px;
+}
+
+.khai-vi3{
+position: absolute;
+height: 145px;
+left: 60.5%;
+right: 0%;
+top: 65px;
+
+border-radius: 8px 8px 0px 0px;
+}
+
+#frame-khai-vi4{
+position: static;
+width: 217px;
+height: 298px;
+left: 935px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+margin: 0px 16px;
+}
+    
+.khai-vi4{
+position: absolute;
+height: 145px;
+left: 80.1%;
+right: 0%;
+top: 65px;
+
+border-radius: 8px 8px 0px 0px;
+}
+
+#context-khai-vi4{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 106px;
+width: 220px;
+left: 967px;
+right: 12px;
+top: 230px;
+}
+
+#mon-goi{
+position: absolute;
+width: 1200px;
+height: 428px;
+left: 360px;
+top: 2233px;
+
+background: #FFFFFF;
+/* Border */
+
+border: 1px solid #DEDEDE;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+#title-mon-goi{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 166px;
+height: 42px;
+left: 20px;
+top: 0px;
+}
+
+#frame-goi-tom{
+position: static;
+width: 218px;
+height: 298px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+.goi-tom-img{
+position: absolute;
+height: 145px;
+left: 1.3%;
+right: 0%;
+top: 65px;
+
+border-radius: 8px 8px 0px 0px;
+}
+
+#context-goi-tom{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 133px;
+left: 12px;
+right: 12px;
+top: 220px;
+}
+
+#frame-bao-ngu1{
+position: absolute;
+width: 218px;
+height: 298px;
+left: 234px;
+top: 65px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+.bao-ngu1-img{
+position: absolute;
+height: 145px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 8px 8px 0px 0px;
+}
+
+#context-bao-ngu1{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 106px;
+left: 12px;
+right: 12px;
+top: 153px;
+}
+
+#frame-bao-ngu2{
+position: absolute;
+width: 218px;
+height: 298px;
+left: 468px;
+top: 65px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+#context-bao-ngu2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 133px;
+left: 12px;
+right: 12px;
+top: 153px;
+}
+
+#frame-bao-ngu3{
+position: absolute;
+width: 217px;
+height: 298px;
+left: 702px;
+top: 65px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+#context-bao-ngu3{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 106px;
+left: 12px;
+right: 12px;
+top: 153px;
+}
+
+#frame-bao-ngu4{
+position: absolute;
+width: 217px;
+height: 298px;
+left: 935px;
+top: 65px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+#context-bao-ngu4{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 106px;
+left: 12px;
+right: 12px;
+top: 153px;
+}
     
