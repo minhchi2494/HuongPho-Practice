@@ -1537,4 +1537,501 @@ left: 12px;
 right: 12px;
 top: 153px;
 }
+
+#dich-vu-noi-bat{
+position: absolute;
+width: 1920px;
+height: 718px;
+left: 0px;
+top: 2725px;
+
+background: linear-gradient(248.92deg, #4E3D01 0%, #2D260E 101.05%);
+}
+
+.icon-dich-vu{
+position: absolute;
+width: 24px;
+height: 60px;
+left: 948px;
+top: 40px;
+}
+
+#title-dich-vu{
+position: absolute;
+width: 300px;
+height: 54px;
+left: 818px;
+top: 104px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 150%;
+/* identical to box height, or 54px */
+
+text-transform: uppercase;
+
+/* Main-Gold */
+
+color: #CDA922;
+}
+
+#frame-dv1{
+position: absolute;
+width: 282px;
+height: 440px;
+left: 360px;
+top: 198px;
+
+filter: drop-shadow(0px 0px 36px rgba(0, 0, 0, 0.25));
+}
+
+.dv1-img{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border-radius: 8px;
+}
+
+
+.dv1-text1{
+position: absolute;
+height: 34px;
+left: 8.51%;
+right: 13.48%;
+bottom: 151px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+text-transform: uppercase;
+
+color: #FFFFFF; 
+}
+
+
+.dv1-text2{
+position: absolute;
+height: 63px;
+left: 8.51%;
+right: 8.51%;
+bottom: 76px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+
+color: #FFFFFF;
+}
+
+#frame-xct1{
+position: absolute;
+width: 120px;
+height: 32px;
+left: 24px;
+top: 384px;
+
+border: 1px solid #CDA922;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.xct1{
+position: absolute;
+height: 21px;
+width: 100px;
+left: 15.6%;
+right: 56.03%;
+bottom: 31px;
+top: 4px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+
+/* Main-Gold */
+
+color: #CDA922;
+}
+
+#frame-dv1{
+position: absolute;
+width: 282px;
+height: 440px;
+left: 360px;
+top: 198px;
+
+filter: drop-shadow(0px 0px 36px rgba(0, 0, 0, 0.25));
+}
+
+.dv1-img{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border-radius: 8px;
+}
+
+
+.dv1-text1{
+position: absolute;
+height: 34px;
+left: 8.51%;
+right: 13.48%;
+bottom: 151px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+text-transform: uppercase;
+
+color: #FFFFFF; 
+}
+
+
+.dv1-text2{
+position: absolute;
+height: 63px;
+left: 8.51%;
+right: 8.51%;
+bottom: 76px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+
+color: #FFFFFF;
+}
+
+#frame-xct1{
+position: absolute;
+width: 120px;
+height: 32px;
+left: 24px;
+top: 384px;
+
+border: 1px solid #CDA922;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.xct1{
+position: absolute;
+height: 21px;
+width: 100px;
+left: 15.6%;
+right: 56.03%;
+bottom: 31px;
+top: 4px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+
+/* Main-Gold */
+
+color: #CDA922;
+}
+
+/* Frame 2 */
+#frame-dv2{
+position: absolute;
+width: 282px;
+height: 440px;
+left: 666px;
+top: 198px;
+
+filter: drop-shadow(0px 0px 36px rgba(0, 0, 0, 0.25));
+}
     
+    .dv2-img{
+        position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    border-radius: 8px;
+    }
+    
+    
+    .dv2-text1{
+    position: absolute;
+    height: 34px;
+    left: 8.51%;
+    right: 13.48%;
+    bottom: 151px;
+    
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF; 
+    }
+    
+    
+    .dv2-text2{
+    position: absolute;
+    height: 63px;
+    left: 8.51%;
+    right: 8.51%;
+    bottom: 76px;
+    
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    
+    
+    color: #FFFFFF;
+    }
+    
+    #frame-xct2{
+    position: absolute;
+    width: 120px;
+    height: 32px;
+    left: 24px;
+    top: 384px;
+    
+    border: 1px solid #CDA922;
+    box-sizing: border-box;
+    border-radius: 4px;
+    }
+    
+    .xct2{
+    position: absolute;
+    height: 21px;
+    width: 100px;
+    left: 15.6%;
+    right: 56.03%;
+    bottom: 31px;
+    top: 4px;
+    
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    
+    
+    /* Main-Gold */
+    
+    color: #CDA922;
+    }
+
+    /* Frame 3 */
+    #frame-dv3{
+position: absolute;
+width: 282px;
+height: 440px;
+left: 975px;
+top: 198px;
+
+filter: drop-shadow(0px 0px 36px rgba(0, 0, 0, 0.25));
+}
+        
+        .dv3-img{
+            position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        
+        border-radius: 8px;
+        }
+        
+        
+        .dv3-text1{
+        position: absolute;
+        height: 34px;
+        width: 250px;
+        left: 8.51%;
+        right: 13.48%;
+        bottom: 151px;
+        
+        font-family: Be Vietnam;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 140%;
+        /* identical to box height, or 34px */
+        
+        text-transform: uppercase;
+        
+        color: #FFFFFF; 
+        }
+        
+        
+        .dv3-text2{
+        position: absolute;
+        height: 63px;
+        left: 8.51%;
+        right: 8.51%;
+        bottom: 76px;
+        
+        font-family: Be Vietnam;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        /* or 21px */
+        
+        
+        color: #FFFFFF;
+        }
+        
+        #frame-xct3{
+        position: absolute;
+        width: 120px;
+        height: 32px;
+        left: 24px;
+        top: 384px;
+        
+        border: 1px solid #CDA922;
+        box-sizing: border-box;
+        border-radius: 4px;
+        }
+        
+        .xct3{
+        position: absolute;
+        height: 21px;
+        width: 100px;
+        left: 15.6%;
+        right: 56.03%;
+        bottom: 31px;
+        top: 4px;
+        
+        font-family: Be Vietnam;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+        
+        
+        /* Main-Gold */
+        
+        color: #CDA922;
+        }
+
+/* Frame 4 */
+ #frame-dv4{
+position: absolute;
+width: 282px;
+height: 440px;
+left: 1278px;
+top: 198px;
+
+filter: drop-shadow(0px 0px 36px rgba(0, 0, 0, 0.25));
+}
+            
+            
+            .dv4-text1{
+            position: absolute;
+            height: 34px;
+            left: 8.51%;
+            right: 13.48%;
+            bottom: 151px;
+            
+            font-family: Be Vietnam;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 140%;
+            /* identical to box height, or 34px */
+            
+            text-transform: uppercase;
+            
+            color: #FFFFFF; 
+            }
+            
+            
+            .dv4-text2{
+            position: absolute;
+            height: 63px;
+            left: 8.51%;
+            right: 8.51%;
+            bottom: 76px;
+            
+            font-family: Be Vietnam;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            /* or 21px */
+            
+            
+            color: #FFFFFF;
+            }
+            
+            #frame-xct4{
+            position: absolute;
+            width: 120px;
+            height: 32px;
+            left: 24px;
+            top: 384px;
+            
+            border: 1px solid #CDA922;
+            box-sizing: border-box;
+            border-radius: 4px;
+            }
+            
+            .xct4{
+            position: absolute;
+            height: 21px;
+            width: 100px;
+            left: 15.6%;
+            right: 56.03%;
+            bottom: 31px;
+            top: 4px;
+            
+            font-family: Be Vietnam;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            /* identical to box height, or 21px */
+            
+            
+            /* Main-Gold */
+            
+            color: #CDA922;
+            }
