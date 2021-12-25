@@ -8,6 +8,13 @@
     <title>Home</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Be Vietnam">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charmonman">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -16,31 +23,603 @@
     <div id="main">
         <div id="header">
             <img id="logo-hpfood" src="image/logo-hpfood.png" alt="">
-            <ul id="nav">
-                <li id="home"><a href="">TRANG CHỦ</a></li>
-                <li id="mon-ngon"><a href="">MÓN ĂN</a></li>
-                <li id="dich-vu"><a href="">DỊCH VỤ TIỆC</a></li>
-                <li id="tin-tuc"><a href="">TIN TỨC</a></li>
-                <li id="lien-he"><a href="">LIÊN HỆ</a></li>
-            </ul>
+            <ol id="nav">
+                <li id="home"><a href="#" style="color: black;">TRANG CHỦ</a></li>
+                <li id="mon-ngon"><a href="#" style="color: black;">MÓN ĂN</a></li>
+                <li id="dich-vu"><a href="#" style="color: black;">DỊCH VỤ TIỆC</a></li>
+                <li id="tin-tuc"><a href="#" style="color: black;">TIN TỨC</a></li>
+                <li id="lien-he"><a href="#" style="color: black;">LIÊN HỆ</a></li>
+            </ol>
+
+            <div class="search-bar">
+                <form action="/action_page.php">
+                    <input id="search-text" type="text" placeholder="Tìm kiếm.." name="search">
+                </form>
+            </div>
+
+            <div>
+                <img src="image/shopping-cart.png" class="cart-icon" alt="">
+            </div>
         </div>
 
         <div id="silde-bar">
-            <h1 class="text1">HUONG PHO GROUP</h1>
-            <h2 class="text2"><i>Kết nối yêu thương đến mọi nhà</i></h3>
-            
-            <img class="huong-pho" src="image/huong-pho0537-1.jpg" alt="">    
+            <img class="huong-pho" src="image/huong-pho0537-1.jpg" alt="">
             <img class="huong-pho2" src="image/huong-pho0537-1 2.png" alt="">
+            <h1 class="text1">HUONG PHO GROUP</h1>
+            <h2 class="text2">Kết nối yêu thương đến mọi nhà</h3>
         </div>
 
         <div id="content">
+            <div class="mon-moi">
+                <br>
+                <ul>
+                    <img class="new-1" src="image/new.PNG" alt="">
+                    <li>
+                        <h1 class="text3">MÓN MỚI</h1>
+                    </li>
+                    <li><a id="xem-chi-tiet" href="#">Xem chi tiết</a></li>
+                    <hr>
+                </ul>
 
-        </div>
+                <div id="frame-bo-luc-lac">
+                    <img class="bo-luc-lac-img" src="image/bo-luc-lac.png" alt="">
 
-        <div id="footer">
+                    <div id="context-bo-luc-lac">
+                        <span><a href="#" id="text9">Bò lúc lắc sốt tomyum và thêm rau củ</a></span>
 
+                        <div id="price">
+                            <div>
+                                <img id="price-s" src="image/price-s.PNG">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img id="price-l" src="image/price-l.PNG">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="frame-ca-bong-mu">
+                    <img class="ca-bong-mu-image" src="image/ca-bong-mu.png" alt="">
+
+
+                    <div id="context-ca-bong-mu">
+                        <div>
+                            <span><a href="#" class="text8">Cá bóng mú sốt chanh dây</a></span>
+                        </div>
+                        <div class="price3">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-m.PNG" id="price-s" alt="">
+                                <span id="text5">250.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-ca-chep">
+                    <img class="ca-chep-img" src="image/ca-chep-hk.png" alt="">
+
+
+                    <div id="context-ca-chep">
+                        <div>
+                            <span><a href="#" class="text8">Cá chép hấp hồng kong</a></span>
+                        </div>
+                        <div class="price3">
+                            <div>
+                                <img src="image/price-m.PNG" id="price-s" alt="">
+                                <span id="text5">250.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="frame-cha-muc">
+                    <img class="cha-muc-img" src="image/cha-muc-hl.png" alt="">
+
+
+                    <div id="context-cha-muc">
+                        <div>
+                            <span><a href="#" class="text8">Chả mực hạ long</a></span>
+                        </div>
+                        <div class="price3">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-m.PNG" id="price-s" alt="">
+                                <span id="text5">250.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="frame-mon-duoc-yeu-thich">
+                <ul>
+                    <img src="image/fire-icon.svg" class="fire-icon" alt="">
+                    <li>
+                        <h3 class="text6">Món được yêu thích</h3>
+                    </li>
+                </ul>
+
+                <hr>
+
+                <div id="frame-com-chien-hai-san">
+                    <img src="image/com-chien-hai-san.png" class="com-chien-hai-sam-img" alt="">
+
+                    <div id="context-com-chien-hai-san">
+                        <span><a href="#" class="text7">Cơm chiên hải sản</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-m.PNG" id="price-s" alt="">
+                                <span id="text5">250.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="frame-ga-bo-xoi">
+                    <img src="image/ga-bo.png" class="ga-bo-img" alt="">
+
+                    <div id="context-ga-bo-xoi">
+                        <span><a href="#" class="text7">Gà bó xôi sốt chua ngọt</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-ga-nuong-lu">
+                    <img src="image/ga-nuong-lu.png" class="ga-nuong-lu-img" alt="">
+
+                    <div id="context-ga-nuong-lu">
+                        <span><a href="#" class="text7">Gà nướng lu kèm khoai tây</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-m.PNG" id="price-s" alt="">
+                                <span id="text5">250.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-com-chien-duong-chau">
+                    <img src="image/com-chien-duong-chau.png" class="com-chien-duong-chau-img" alt="">
+
+                    <div id="context-com-chien-duong-chau">
+                        <span><a href="#" class="text7">Cơm chiên dương châu</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-ga-tiem-rau-cu">
+                    <img src="image/ga-tiem-rau-cu.png" class="ga-tiem-rau-cu-img" alt="">
+
+                    <div id="context-ga-tiem-rau-cu">
+                        <span><a href="#" class="text7">Gà tiềm rau củ</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <img src="image/banner1.png" class="banner1-img" alt="">
+                <img src="image/banner2.png" class="banner2-img" alt="">
+            </div>
+
+            <div id="frame-mon-khai-vi">
+                <div id="title-mon-khai-vi">
+                    <img src="image/dinner-icon.png" class="dinner-icon" alt="">
+                    <span class="text10">Món khai vị</span>
+                </div>
+                <div>
+                    <span class="xem-chi-tiet-2">Xem chi tiết</span>
+                </div>
+
+                <hr>
+
+                <div id="frame-khai-vi1">
+                    <img src="image/khai-vi-ba-mon1.png" class="khai-vi1" alt="">
+                    <div id="context-khai-vi">
+                        <span><a href="#" class="text11">Khai vị 3 món</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-m.PNG" id="price-s" alt="">
+                                <span id="text5">250.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-heo-quay">
+                    <img src="image/heo-quay.png" class="heo-quay" alt="">
+                    <div id="context-heo-quay">
+                        <span><a href="#" class="text8">Heo quay</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-khai-vi2">
+                    <img src="image/khai-vi-ba-mon2.png" class="khai-vi2" alt="">
+                    <div id="context-khai-vi2">
+                        <span><a href="#" class="text8">Khai vị 3 món</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-m.PNG" id="price-s" alt="">
+                                <span id="text5">250.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-khai-vi3">
+                    <img src="image/khai-vi-ba-mon3.png" class="khai-vi3" alt="">
+                    <div id="context-khai-vi3">
+                        <span><a href="#" class="text8">Khai vị 3 món (gỏi lỗ tai heo)</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-khai-vi4">
+                    <img src="image/khai-vi-ba-mon4.png" class="khai-vi4" alt="">
+                    <div id="context-khai-vi4">
+                        <span><a href="#" class="text8">Khai vị 3 món (gỏi chả giò chạo tôm)</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mon-goi">
+                <div id="title-mon-goi">
+                    <img src="image/dinner-icon.png" class="dinner-icon" alt="">
+                    <span class="text10">Món gỏi</span>
+                </div>
+                <div>
+                    <span class="xem-chi-tiet-2">Xem chi tiết</span>
+                </div>
+
+                <hr>
+
+                <div id="frame-goi-tom">
+                    <img src="image/goi-tom.png" class="goi-tom-img" alt="">
+                    <div id="context-goi-tom">
+                        <span><a href="#" class="text11">Gỏi tôm thịt thượng hạng</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-m.PNG" id="price-s" alt="">
+                                <span id="text5">250.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-bao-ngu1">
+                    <img src="image/bao-ngu1.png" class="bao-ngu1-img" alt="">
+                    <div id="context-bao-ngu1">
+                        <span><a href="#" class="text11">Bào ngư sốt dầu hào cải xanh</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-bao-ngu2">
+                    <img src="image/bao-ngu2.png" class="bao-ngu2-img" alt="">
+                    <div id="context-bao-ngu2">
+                        <span><a href="#" class="text11">Bào ngư sốt dầu hào cải xanh</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-m.PNG" id="price-s" alt="">
+                                <span id="text5">250.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-bao-ngu3">
+                    <img src="image/bao-ngu3.png" class="bao-ngu3-img" alt="">
+                    <div id="context-bao-ngu3">
+                        <span><a href="#" class="text11">Bào ngư sốt dầu hào cải xanh</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-m.PNG" id="price-s" alt="">
+                                <span id="text5">250.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-l.PNG" id="price-s" alt="">
+                                <span id="text5">500.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frame-bao-ngu4">
+                    <img src="image/bao-ngu4.png" class="bao-ngu4-img" alt="">
+                    <div id="context-bao-ngu4">
+                        <span><a href="#" class="text11">Bào ngư sốt dầu hào cải xanh</a></span>
+                        <div id="price2">
+                            <div>
+                                <img src="image/price-s.PNG" id="price-s" alt="">
+                                <span id="text5">100.000 đ</span>
+                            </div>
+                            <div>
+                                <img src="image/price-m.PNG" id="price-s" alt="">
+                                <span id="text5">250.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dich-vu-noi-bat">
+                <div class="icon-dich-vu"><img src="image/icon-dich-vu-noi-bat.png"></div>
+
+                <div id="title-dich-vu">
+                    <span>Dịch vụ nổi bật</span>
+                </div>
+
+                <div id="frame-dv1">
+                    <div>
+                        <img src="image/dich-vu-1.png" class="dv1-img" alt="">
+                    </div>
+
+                    <span class="dv1-text1">Thiết kế tiệc cưới</span>
+                    <span class="dv1-text2">Xu hướng mới hiện nay cho tiệc cưới chính là sự khác biệt. Bấ cứ ai cũng
+                        muốn tiệc của mình...</span>
+
+                    <div id="frame-xct1">
+                        <span><a href="#" class="xct1">Xem chi tiết</a></span>
+                    </div>
+                </div>
+
+                <!-- Frame 2 -->
+                <div id="frame-dv2">
+                    <div>
+                        <img src="image/dich-vu-2.png" class="dv2-img" alt="">
+                    </div>
+
+                    <span class="dv2-text1">Bàn Gallery</span>
+                    <span class="dv2-text2">Bàn Gallery, nơi lưu lại những hình ảnh đẹp của cô dâu chú rể, cũng là nơi
+                        gia đình chào đón những...</span>
+
+                    <div id="frame-xct2">
+                        <span><a href="#" class="xct2">Xem chi tiết</a></span>
+                    </div>
+                </div>
+
+                <!-- Frame 3 -->
+                <div id="frame-dv3">
+                    <div>
+                        <img src="image/dich-vu-3.png" class="dv3-img" alt="">
+                    </div>
+
+                    <span class="dv3-text1">Trang trí hoa tươi</span>
+                    <span class="dv3-text2">Backdrop hoa tươi luôn là điểm nhấn đầu tiên của buổi tiệc. Nơi cô dâu chú
+                        rể xuất hiện cùng với...</span>
+
+                    <div id="frame-xct3">
+                        <span><a href="#" class="xct3">Xem chi tiết</a></span>
+                    </div>
+                </div>
+
+                <!-- Frame 4 -->
+                <div id="frame-dv4">
+                    <div>
+                        <img src="image/dich-vu-4.png" class="dv4-img" alt="">
+                    </div>
+
+                    <span class="dv4-text1">Chụp ảnh cưới</span>
+                    <span class="dv4-text2">Phối hợp cùng các đơn vị chụp ảnh cưới chuyên nghiệp, Hương Phố đảm bảo sẽ
+                        lưu lại những khoản...</span>
+
+                    <div id="frame-xct4">
+                        <span><a href="#" class="xct4">Xem chi tiết</a></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <div id="footer">
+        <div id="frame-video">
+            <img src="image/arrow-left.png" class="arrow-left-icon" alt="">
+
+            <div>
+                <img src="image/footer1.png" class="footer1-img" alt="">
+                <img src="image/play-circle.png" class="play-icon1" alt="">
+            </div>
+            
+            <div>
+                <img src="image/footer2.png" class="footer2-img" alt="">
+                <img src="image/play-circle.png" class="play-icon2" alt="">
+            </div>
+
+            <div>
+                <img src="image/footer3.png" class="footer3-img" alt="">
+                <img src="image/play-circle.png" class="play-icon3" alt="">
+            </div>
+
+            <div>
+                <img src="image/footer4.png" class="footer4-img" alt="">
+                <img src="image/play-circle.png" class="play-icon4" alt="">
+            </div>
+
+            <div>
+                <img src="image/footer5.png" class="footer5-img" alt="">
+                <img src="image/play-circle.png" class="play-icon5" alt="">
+            </div>
+
+            <img src="image/arrow-right.png" class="arrow-right-icon" alt="">
+        </div>
+
+        <div id="frame-contact">
+            <div id="frame-logo">
+                <img src="image/logo1.png" alt="">
+                <img src="image/logo2.png" alt="">
+            </div>
+
+            <div id="hpgroup-text">
+                <span>HP FOOD - HƯƠNG PHỐ GROUP</span>
+                <span class="content1">Được thiết kế ấn tượng độc đáo theo phong cách tân cổ điển Châu Âu. Tọa lạc ngay trung tâm quận Gò Vấp với diện tích hơn 12,675m2 gồm 21 sảnh tiệc.</span>
+            </div>
+
+            <div id="ho-tro">
+                <span class="content2">Hỗ trợ</span>
+                <div>
+                    <span><a href=""  class="content3">Dịch vụ khách hàng</a></span>
+                    <span><a href=""  class="content4">Hòm thư góp ý</a></span>
+                    <br>
+                    <span><a href=""  class="content5">Tải về</a></span>
+                    <br>
+                    <span><a href="" class="content6">FAQs</a></span>
+                </div>
+            </div>
+
+            <div id="dia-chi">
+                <span class="content7">Địa chỉ liên hệ</span>
+                <div id="content-dia-chi">
+                    <img src="image/phone.png" class="phone-img" alt="">
+                    <img src="image/email.png" class="email-img" alt="">
+                    <img src="image/map-pin.png" class="map-img" alt="">
+                    <div id="inner-frame">
+                        <span class="phone-content">Điện thoại: (028) 3989.6179 - (028) 39894610</span>
+                        <span class="email-content">Email: salehuongpho@gmail.com</span>
+                        <span class="location-content">Địa chỉ: A12 Phan Văn Trị - Phường 7 - Quận Gò Vấp - Tp. Hồ Chí Minh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <span>Copyright &copy 2022 Nhà hàng tiệc cưới Hương Phố</span>
+        </div>
+    </div>
+    
 </body>
 
 </html>
